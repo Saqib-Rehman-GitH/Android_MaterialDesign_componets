@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item android:title="Group Item"
+            android:id="@+id/MenuItemGroupItem"
+            android:onClick="itemSelected"/>
+    </group>
+    <item android:title="Item"
+        android:id="@+id/MenuItemMainMenuItem1"/>
+    <item android:title="Item2"
+        android:id="@+id/MenuItemMainMenuItem2"/>
+    <item android:title="Item3"
+        android:id="@+id/MenuItemMainMenuItem3">
+        <menu >
+            <item android:title="Nested Item 1 "
+                android:id="@+id/MenuItemNestedMenuItem1"/>
+            <item android:title="Nested Item2"
+                android:id="@+id/MenuItemNestedMenuItem2"/>
+            <item android:title="Nested Item3 "
+                android:id="@+id/MenuItemNestedMenuItem3"/>
+        </menu>
+    </item>
+</menu>

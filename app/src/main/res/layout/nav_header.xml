@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Navigation Header"
+                android:textColor="#fff"
+                android:textSize="40sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="20dp"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                >
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/ic_android_black_24dp"
+                        >
+                    </ImageView>
+                   <LinearLayout
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       android:layout_marginStart="10dp"
+                       android:layout_marginTop="10dp">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="User Name"
+                                    android:textSize="30sp"
+                                    android:textColor="#fff"
+                                    android:textStyle=" bold "
+                                    >
+                                </TextView>
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="saqibrehman903@gmail.com"
+                           android:textSize="15sp"
+                           android:textColor="#fff"
+                           android:textStyle=" bold "
+                           android:layout_marginTop="10dp"
+                           >
+                       </TextView>
+                   </LinearLayout>
+            </LinearLayout>
+
+
+
+</LinearLayout>
